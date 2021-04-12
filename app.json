@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "bumpass",
+    "slug": "bumpass",
+    "privacy":"unlisted",
+    "platforms": [
+      "ios"
+    ],
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier":"com.bumpass.bumpass",
+      "config":{
+        "googleMapsApiKey":"AIzaSyAhuHF1G3vyqhm5u9q43VPk4a0HsdiEeis"
+      }
+    }
+  }
+}
